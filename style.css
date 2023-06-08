@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.wrapper {
+    width: 350px;
+    margin: auto;
+    margin-top: 50px;
+    height: auto;
+}
+.contianer {
+    background-image: url(./images/Iphone_Frame.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    margin: auto;
+    height: 885px;
+}
+.main-div{
+    width: 88%;
+    margin: auto;
+    padding-top: 115px;
+}
+
+.post-info{
+    display: flex;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.public{
+    width: 70px;
+}
+.public img{
+    width: 75%;
+    height: 55px;
+    border-radius: 50%;
+}
+.post-name{
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.post-name span{
+    margin-bottom: 10px;
+}
+.title{
+    margin:20px;
+}
+.title p {
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 1.3;
+    word-spacing: 2px;
+}
+.post-img img {
+    width: 100%;
+    height: 175px;
+}
+.click-div{
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 10px;
+    width: 100%;
+    border-bottom: 1px solid gray;
+}
+
+.like-img,
+.comment-img,
+.share-img{
+    width: 22px;
+}
+.like-img{
+    width: 37px;
+}
+.like-click span {
+    font-size: 14px;
+}
+.comment span,
+.share span{
+    margin-left: 5px;
+    font-size: 14px;
+}
+.like-click p,
+.comment p,
+.share p{
+    display: flex;
+    height: 30px;
+    align-items: center;
+}
